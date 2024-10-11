@@ -1,0 +1,16 @@
+---
+layout: default
+modal-id: 2
+permalink: /PD-COMP/
+shortt: PD-COMP
+img: PD-COMP-Cover.png
+
+title: "Damage mechanisms in CFRP/HNT laminates under flexural and in-plane shear loadings using experimental and numerical methods"
+authors: B. Alkhateab, I. E. Tabrizi, J. S. M. Zanjani, M. Naqib Rahimi, L. H. Poudeh, A. Kefal, M. Yildiz
+journal: "Composites Part A: Applied Science and Manufacturing"
+doi: 10.1016/j.compositesa.2020.105962
+date1: 01 Sep 2020
+journalimpfactor: 8.1
+journalcitescore: 15.2
+abstract: This study is conducted to thoroughly scrutinize the role of nanotubes on the physics behind the deformation mechanisms and damage development in fiber reinforced polymer composites by using acoustic emission, digital image correlation, infrared thermography, fractography, and non-local meshless-numerical analysis, namely, Peridynamics. Carbon fiber laminates with and without Halloysite nanotubes (HNTs) are prepared and tested under flexural and in-plane shear loads. In depth analysis of the cumulative counts for acoustic emission data shows that the addition of HNTs mainly promotes the failure mechanisms associated with matrix cracking. Digital image correlation and infrared thermography analysis clearly prove that nanotubes prevent the coalescence of microcracks by blocking crack propagation or diverting its path. Fractography analysis shows that HNTs addition improves the interfacial strength despite promoting microcracks in the matrix. The hindrance of crack growth, crack tip splitting, and prevention of crack coalescence by HNTs clusters, are supported successfully by performing Peridynamic analysis.
+---

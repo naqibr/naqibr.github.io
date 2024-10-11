@@ -1,0 +1,16 @@
+---
+layout: default
+modal-id: 7
+permalink: /SPH-FGM/
+shortt: SPH-FGM
+img: SPH-FGM-Cover.jpg
+
+title: "Modeling dynamic brittle fracture in functionally graded materials using hyperbolic phase field and smoothed particle hydrodynamics"
+authors: M. Naqib Rahimi, Georgios Moutsanidis
+journal: Computer Methods in Applied Mechanics and Engineering
+doi: 10.1016/j.cma.2022.115642
+date1: 01 Nov 2022
+journalimpfactor: 6.9
+journalcitescore: 12.7
+abstract: We present a novel particle-based computational framework for the numerical simulation of dynamic crack propagation in functionally graded materials under highly dynamic loading conditions and large deformations. The approach is based on an innovative computational method that solves phase field of brittle fracture with smoothed particle hydrodynamics. The meshfree nature of the discretization technique allows for the simulation of scenarios involving extreme deformations and material separation, as opposed to conventional mesh-based computational techniques such as the finite element method. At the same time, the damage evolution is governed by a hyperbolic partial differential equation that allows for efficient explicit time integration and avoids the complexities of solving linear systems of equations. The framework is verified and validated against other computational approaches and experimental results. Finally, the proposed approach is applied to some challenging impact scenarios that involve fast dynamics or large deformations, and it is shown that it can be easily used for identifying material gradation profiles that manipulate crack propagation.
+---

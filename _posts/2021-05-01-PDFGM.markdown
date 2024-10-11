@@ -1,0 +1,16 @@
+---
+layout: default
+modal-id: 4
+permalink: /PD-FGM/
+shortt: PD-FGM
+img: PD-FGM-Cover.jpg
+
+title: "An improved ordinary-state based peridynamic formulation for modeling FGMs with sharp interface transitions"
+authors: M. Naqib Rahimi, A. Kefal, M. Yildiz
+journal: "International Journal of Mechanical Sciences"
+doi: 10.1016/j.ijmecsci.2021.106322
+date1: 01 May 2021
+journalimpfactor: 7.1
+journalcitescore: 12.8
+abstract: This study proposes an enhanced formulation of Ordinary-State based peridynamic which can model functionally graded materials (FGMs) with sharp jumps in material properties through introducing a novel peridynamic parameter, referred to as the dominancy rate. The current formulation takes into account the multi-scale nature of peridynamics as well as the material transition (interface) effects. As a result of extensive comparison efforts with FEM literature, traditional peridynamics, and ANSYS, this study reveals that the properties of a PD-bond should not be equally affected by the properties of the constituent points in modeling FGMs. Additionally, it is found that the correctness of the results is negatively influenced if the bond properties are determined using only one of the weaker or stronger constituent point. Moreover, a better accuracy is achieved, specially at the material transition regions, through considering that the properties of the bonds are mostly dependent on that of the weaker constituent point. It is also observed that the current approach can model FGMs with higher accuracy using lower number of material points as compared to the traditional PD. Finally, To Further demonstrate the capability of the proposed model, a numerically validated toughening mechanism against crack propagations is presented for FGMs. It is found that the local toughness of FGMs can be effectively enhanced by tailoring the location and material properties of the sub-regions.
+---

@@ -11,13 +11,13 @@ body {
 }
 
 p {
-    font-size: 16px; /* Paragraph font */
+    font-size: 18px; /* Paragraph font */
     text-align: left;
     margin: 5px 10px 5px 10px; /* Add some margin for spacing */
 }
 
 p.small {
-    font-size: 14px;
+    font-size: 16px;
     text-align: left;
     margin: 5px 10px 5px 10px; /* Add some margin for spacing */
 }
@@ -45,21 +45,21 @@ h6 {
 .arth {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    font-size: 1.5em; /* Adjust the size as needed */
+    font-size: 24px; /* Adjust the size as needed */
     /* text-align: justify; */ /* Justify the text if needed */
     margin: 5px 0; /* Add some margin for spacing */
 }
 .autrh {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300;
-    font-size: 1.0em; /* Adjust the size as needed */
+    font-size: 18px; /* Adjust the size as needed */
     /* text-align: justify; */ /* Justify the text if needed */
     margin: 10px 0;
 }
 .absth {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 600;
-    font-size: 1.25em; /* Adjust the size as needed */
+    font-size: 19px; /* Adjust the size as needed */
     text-align: "left" !important; /* Justify the text if needed */
     text-align: left !important; /* Align the text to the left */
     margin: 10px 0; /* Add some margin for spacing */
@@ -67,7 +67,7 @@ h6 {
 .journh {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300;
-    font-size: 1.0em; /* Adjust the size as needed */
+    font-size: 17px; /* Adjust the size as needed */
     font-style: italic;
     /* text-align: justify; */ /* Justify the text if needed */
     /*margin: 20px 0; /* Add some margin for spacing */
@@ -189,7 +189,7 @@ header .intro-text .subtitle {
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: -5px 0;
+        padding: -10px 0;
         -webkit-transition: padding .2s;
         -moz-transition: padding .2s;
         transition: padding .2s;

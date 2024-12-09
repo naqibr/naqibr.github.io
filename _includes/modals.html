@@ -1,0 +1,95 @@
+<!-- Publication Modals -->
+{% for post in site.posts %}
+<div class="publication-modal modal fade" id="publicationModal-{{ post.modal-id }}" tabindex="-1" role="dialog"
+  aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="modal-body">
+            <h2>{{ post.title }}</h2>
+            <!-- Authors -->
+            {% if post.authors %}
+              {% assign authors = post.authors | split: ',' %}
+              <div class="autrh">
+                {% for author in authors %}
+                  {% if author == "M. Naqib Rahimi" or author == " M. Naqib Rahimi"%}
+                    <strong>{{ author }}</strong>{% if forloop.last == false %},{% endif %}
+                  {% else %}
+                    {{ author }}{% if forloop.last == false %},{% endif %}
+                  {% endif %}
+                {% endfor %}
+              </div>
+            {% endif %}
+
+            {% if post.journal %}
+              <div class="journh">{{ post.journal }}</div>
+            {% endif %}
+            {% if post.doi %}
+              <div class="journh">DOI: <a href="https://doi.org/{{ post.doi }}" target="_blank">{{ post.doi }}</a></div>
+            {% endif %}
+            {% if post.filelink %}
+              <div class="journh">File: <a href="{{ post.filelink }}" target="_blank">Access PDF</a></div>
+            {% endif %}
+            <ul class="list-inline item-details">
+              {% if post.client %}
+                <li>Client: <strong>{{ post.client }}</strong></li>
+              {% endif %}
+              {% if post.date1 %}
+                <li>Published on: <strong>{{ post.date1 }}</strong></li>
+              {% endif %}
+              {% if post.journalimpfactor %}
+                <li>Journal Impact Factor: <strong>{{ post.journalimpfactor }}</strong></li>
+              {% endif %}
+              {% if post.journalcitescore %}
+                <li>Journal Cite Score: <strong>{{ post.journalcitescore }}</strong></li>
+              {% endif %}
+            </ul>
+
+            <hr class="star-primary">
+            <!-- Image Swiper -->
+            <swiper-container class="mySwiper" auto-height="false" loop="true" space-between="20" navigation="true" pagination="true" pagination-clickable="true">
+                {% assign files_in_directory = "" %}
+                {% for file in site.static_files %}
+                  {% assign directory_path = "img/portfolio/" | append: post.shortt | append: "/" %}
+                  {% if file.path contains directory_path %}
+                    {% assign files_in_directory = files_in_directory | append: file.path | append: "," %}
+                  {% endif %}
+                {% endfor %}
+                
+                {% if files_in_directory != "" %}
+                  {% assign files_array = files_in_directory | split: "," %}
+                  {% for file in files_array %}
+                    {% if file != "" %}
+                      <swiper-slide><img src="{{ file }}" alt=""></swiper-slide>
+                    {% endif %}
+                  {% endfor %}
+                {% else %}
+                  <p>No files found in the directory.</p>
+                {% endif %}
+            </swiper-container>
+
+            <!-- Abstract -->
+            {% if post.abstract %}
+              <div class="absth">Abstract</div>
+              <p>{{ post.abstract }}</p>
+            {% endif %}
+
+            {% if post.description %}
+              <p>{{ post.description }}</p>
+            {% endif %}
+            
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>

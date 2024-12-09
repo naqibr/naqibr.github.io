@@ -1,0 +1,16 @@
+---
+layout: default
+modal-id: 6
+permalink: /SPH-PF/
+
+img: SPH-PF-Cover.jpg
+title: "A smoothed particle hydrodynamics approach for phase field modeling of brittle fracture"
+shortt: SPH-PF
+authors: M. Naqib Rahimi, Georgios Moutsanidis
+journal: Computer Methods in Applied Mechanics and Engineering
+doi: 10.1016/j.cma.2022.115191
+date1: 01 Aug 2022
+journalimpfactor: 6.9
+journalcitescore: 12.7
+abstract: Fracture is a very challenging and complicated problem with various applications in engineering and physics. Although it has been extensively studied within the context of mesh-based numerical techniques, such as the finite element method (FEM), the research activity within the Smoothed Particle Hydrodynamics (SPH) community remains scarce. SPH is a particle-based numerical method used to discretize equations of continuum media. Its meshfree nature makes it ideal to simulate fracture scenarios that involve extreme deformations. However, to model fracture, SPH researchers have mostly relied on ad-hoc empirical local damage models, cohesive zone approaches, or pseudo-spring models, which come with a set of drawbacks and limitations. On the other hand, phase field models of brittle fracture have recently gained popularity in academic circles and provide significant improvements compared to previous approaches. These improvements include the derivation from fundamental fracture theories, the introduction of non-locality, and the ability to model multiple crack initiation, propagation, branching, and coalescence, in situations where no prior knowledge of the crack paths is available. Nevertheless, phase field for fracture has not been studied within SPH. In this proof-of-concept paper we develop and implement a phase field model of brittle fracture within the context of SPH. Comprehensive mathematical and implementation details are provided, and several challenging numerical examples are computed and illustrate the proposed method’s ability to accurately and efficiently simulate complex fracture scenarios.
+---

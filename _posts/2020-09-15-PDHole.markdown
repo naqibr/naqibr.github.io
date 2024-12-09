@@ -1,0 +1,15 @@
+--- 
+layout: default 
+modal-id: 3 
+permalink: /PD-HOLE/ 
+shortt: PD-HOLE 
+img: PD-HOLE-Cover.jpg 
+title: "An ordinary state-based peridynamic model for toughness enhancement of brittle materials through drilling stop-holes" 
+authors: M. Naqib Rahimi, A. Kefal, M. Yildiz, E. Oterkus 
+journal: "International Journal of Mechanical Sciences" 
+doi: 10.1016/j.ijmecsci.2020.105773
+date1: 15 Sep 2020
+journalimpfactor: 7.1
+journalcitescore: 12.8
+abstract: In this paper, the ordinary state-based peridynamic (OSB) is used to simulate and study the effects of different-shaped stop-holes with different combinations on crack dynamics in brittle materials in order to establish a detailed knowledge about the toughening effect of internal features that can be in the form of holes and pores. Using the OSB analyses, a new easy-to-apply technique is presented to toughen the materials against crack propagations. As a first case study, the high accuracy of peridynamic approach in damage prediction is demonstrated through solving a collection of numerical and experimental benchmark problems. Moreover, the bi-hole, parabolic, branched, bi-parabolic, and mixed-parabolic combinations of stop-holes under tensile loading, and the T-shape, I-shape, bi-linear, linear, and linear-parabolic combinations of stop-holes under shear loading are suggested for notably enhancing material toughness and are practically and functionally compared with each other. Generally, the suggested geometries are proven to be highly effective on toughness enhancement of materials with a relative ease of implementation, in comparison to other internal features such as micro-cracks. In addition, a further case study is carried out on the effects of the distance of stop-holes from the initial crack-tip on crack dynamics and material toughness, in which it is observed that every hole has a specific µ-range, and thus, the crack dynamics are affected by the hole if and only if the crack enters this range. Overall, the arrestment and accelerating effects of the stop-holes on crack dynamics are carefully explained numerically and conceptually, which will help engineers and designers to maximize the positive effects of stop-holes on material toughness and design a tougher micro-structural material using easily applied defects. 
+---

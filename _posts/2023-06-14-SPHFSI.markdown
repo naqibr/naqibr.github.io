@@ -1,0 +1,16 @@
+---
+layout: default
+modal-id: 8
+permalink: /SPH-FSI/
+
+img: SPH-FSI-Cover.jpg
+title: An SPH-based FSI framework for phase-field modeling of brittle fracture under extreme hydrodynamic events
+shortt: SPH-FSI
+authors: M. Naqib Rahimi, Georgios Moutsanidis, Lampros Savilos
+journal: Journal of Engineering with Computers
+doi: 10.1007/s00366-023-01857-0
+date1: 14 June 2023
+journalimpfactor: 7.3
+journalcitescore: 18.0
+abstract: We present a proof-of-concept particle-based fluid–structure interaction (FSI) computational framework for modeling structural fracture and fragmentation under the impact of extreme hydrodynamic events. The smoothed particle hydrodynamics (SPH) approach is employed to discretize the equations of motion for both the fluid and structural domains. The meshfree nature of the discretization technique accommodates the simulation of scenarios involving extreme structural deformations and material separation, as well as free-surface flows. The framework is supplemented with a phase-field model of brittle fracture that allows for the simulation of crack nucleation, propagation, and branching, which leads to realistic modeling of structural responses during extreme hydrodynamic events. In the end, a novel algorithm for coupling the fluid and solid subproblems is presented. The proposed approach is verified and validated against existing computational methods and experimental results, and in the end, a few challenging problems involving complex fracture patterns and fragmentation are presented.
+---

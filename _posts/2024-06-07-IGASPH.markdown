@@ -1,0 +1,16 @@
+---
+layout: default
+modal-id: 9
+permalink: /IGA-SPH/
+
+img: IGA-SPH-Cover.png
+title: "IGA-SPH: coupling isogeometric analysis with smoothed particle hydrodynamics for air-blast–structure interaction"
+shortt: IGA-SPH
+authors: M. Naqib Rahimi, Georgios Moutsanidis
+journal: Journal of Engineering with Computers
+doi: 10.1007/s00366-024-01978-0
+date1: 07 May 2024
+journalimpfactor: 7.3
+journalcitescore: 18.0
+abstract: We introduce a novel immersed-like numerical framework that combines isogeometric analysis with smoothed particle hydrodynamics for simulating air-blast–structure interaction. The solid domain is represented by a Lagrangian point cloud, which is immersed into a background Eulerian fluid domain. The smoothed particle hydrodynamics framework is employed to solve the equations of motion of the solid point cloud, whereas isogeometric analysis is used for the fluid mechanics equations on the background domain. The coupling strategy relies on a penalty-based volumetric coupling scheme that penalizes the velocity difference between the two domains, and involves a minimal amount of modification to existing codes, resulting in a straightforward implementation. The immersed nature of the proposed approach, combined with volumetric coupling, eliminates the need for explicit tracking of fluid–structure interfaces and imposes no limitations on solid domain motion and topology. Ample mathematical details are provided, and the proposed method is verified and validated against established numerical tools and experimental studies. The results affirm the method’s accuracy, robustness, and ease with which it seamlessly integrates two distinct computational techniques.
+---

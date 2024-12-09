@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body id="page-top" class="index">
+  {% include nav.html %}
+  {% include header.html %}
+  {% include CV.html %}
+  {% include JournalPublications.html %}
+  {% include about.html %}
+ 
+
+  {% if site.contact == "static" %}
+  {% include contact_static.html %}
+  {% elsif site.contact == "disqus" %}
+  {% include contact_disqus.html %}
+  {% else %}
+  {% include contact.html %}
+  {% endif %}
+
+  {% include footer.html %}
+  {% include modals.html %}
+  {% include js.html %}
+  <script>
+    function toggleSection(sectionId) {
+        // Get the clicked section
+        const section = document.getElementById(sectionId);
+        
+        // Check if the clicked section is already active
+        if (section.classList.contains('active')) {
+            // If it is active, hide it (remove active class)
+            section.classList.remove('active');
+        } else {
+            // Hide all other sections
+            document.querySelectorAll('.content-section').forEach(section => {
+                section.classList.remove('active');
+            });
+
+            // Show the clicked section (add active class)
+            section.classList.add('active');
+        }
+    }
+
+    // Event listener to hide all sections when clicking outside
+    document.addEventListener('click', function(event) {
+        // Check if the clicked target is not a grid item or within a content section
+        if (!event.target.closest('.grid-item') && !event.target.closest('.content-section')) {
+            // Hide all content sections
+            document.querySelectorAll('.content-section').forEach(section => {
+                section.classList.remove('active');
+            });
+        }
+    });
+</script>
+
+</body>
+
+</html>

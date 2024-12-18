@@ -588,12 +588,7 @@ footer .footer-below {
     margin-bottom: 0px;
     vertical-align: middle;
 }
-.grid-item h2 {
-    justify-content: center;
-    align-items: center;
-    color: #34495e;
-    vertical-align: middle;
-}
+
 .content-section {
     grid-column: 1 / -1; /* Ensures it takes full width */
     background: #f9f9f9;
@@ -842,4 +837,8 @@ footer .footer-below {
     margin-left: 0.15cm;
     margin-right: 0.15cm;
     
+}
+
+#CV .grid-item h2 {
+    font-size: clamp(10px, 2vw, 20px) !important;
 }

@@ -41,14 +41,16 @@
                 <li>Client: <strong>{{ post.client }}</strong></li>
               {% endif %}
               {% if post.date1 %}
-                <li>Published on: <strong>{{ post.date1 }}</strong></li>
+                <div class="journh">Published on: <strong>{{ post.date1 }}</strong></div>
               {% endif %}
-              {% if post.journalimpfactor %}
-                <li>Journal Impact Factor: <strong>{{ post.journalimpfactor }}</strong></li>
-              {% endif %}
-              {% if post.journalcitescore %}
-                <li>Journal Cite Score: <strong>{{ post.journalcitescore }}</strong></li>
-              {% endif %}
+              <div class="journh-container">
+                {% if post.journalimpfactor %}
+                  <div class="journh">Journal Impact Factor: <strong>{{ post.journalimpfactor }}</strong>, </div>
+                {% endif %}
+                {% if post.journalcitescore %}
+                <div class="journh "> Journal Cite Score: <strong>{{ post.journalcitescore }}</strong></div>
+                {% endif %}
+              </div>
             </ul>
 
             <hr class="star-primary">
@@ -77,7 +79,7 @@
             <!-- Abstract -->
             {% if post.abstract %}
               <div class="absth">Abstract</div>
-              <p>{{ post.abstract }}</p>
+              <div class="abstbody">{{post.abstract}}</div>
             {% endif %}
 
             {% if post.description %}

@@ -840,5 +840,16 @@ footer .footer-below {
 }
 
 #CV .grid-item h2 {
-    font-size: clamp(10px, 2vw, 20px) !important;
+    font-size: clamp(9px, 3vw, 20px) !important;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    vertical-align: middle;
+}
+#CV .grid-item i {
+    font-size: clamp(15px, 4vw, 30px) !important;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    vertical-align: middle;
 }

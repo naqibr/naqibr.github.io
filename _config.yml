@@ -49,8 +49,8 @@ social:
     url: https://www.linkedin.com/in/naqib-rahimi?original_referer=https%3A%2F%2Fwww.google.com%2F
   - title: researchgate
     url: https://www.researchgate.net/profile/M-Naqib-Rahimi
-  - title: instagram
-    url: https://www.instagram.com/naqib_rahimi
+  # - title: instagram
+  #   url: https://www.instagram.com/naqib_rahimi
 
 # Postal address (add as many lines as necessary)
 address:

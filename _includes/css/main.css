@@ -45,7 +45,7 @@ h6 {
 .arth {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    font-size: 1.5em; /* Adjust the size as needed */
+    font-size: 1.25em; /* Adjust the size as needed */
     /* text-align: justify; */ /* Justify the text if needed */
     margin: 5px 0; /* Add some margin for spacing */
 }
@@ -61,7 +61,7 @@ h6 {
     font-weight: 600;
     font-size: 1.25em; /* Adjust the size as needed */
     text-align: "left" !important; /* Justify the text if needed */
-    text-align: left !important; /* Align the text to the left */
+    /* text-align: left !important; Align the text to the left */
     margin: 10px 0; /* Add some margin for spacing */
 }
 .journh {

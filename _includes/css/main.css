@@ -48,7 +48,7 @@ h1 {
 .arth {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    font-size: clamp(0.8em, 1vw, 1.5em);
+    font-size: clamp(1.0em, 2vw, 2.0em);
     /* text-align: justify; */ /* Justify the text if needed */
     margin: 5px 0; /* Add some margin for spacing */
 }
@@ -62,22 +62,19 @@ h1 {
 .absth {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 600;
-    font-size: clamp(0.55em, 1vw, 1.1em);
+    font-size: clamp(0.9em, 2vw, 1.5em);
     text-align: justify !important; /* Justify the text if needed */
     /* text-align: left !important; Align the text to the left */
     margin: 10px 0; /* Add some margin for spacing */
 }
 .abstbody {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: clamp(0.5em, 1vw, 1.0em);
+    font-size: clamp(0.8em, 2vw, 1.3em);
     text-align: justify; /* Justify text for larger screens */
     /* direction: rtl; Set text direction to right-to-left */
     margin: 0px 0;
 }
-.abstbody-container .abstbody {
-    padding-left: clamp(20px, 1vw, 0.0em);
-    padding-right: clamp(20px, 1vw, 0.0em);
-}
+
 .journh {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300;
@@ -649,6 +646,11 @@ footer .footer-below {
     font-weight: 600;
 }
 
+#contact form .control-group label {
+    font-size: clamp(1.2em, 2vw, 1.3em) !important;  /* Adjust this value to your preference */
+    font-weight: normal !important; /* Optional: Adjust font weight if needed */
+}
+
 .publication-grid {
     display: flex;
     flex-wrap: wrap; /* Ensure items wrap to the next line */
@@ -834,4 +836,10 @@ footer .footer-below {
     position: absolute;                   /* Position absolute for custom alignment */
     left: -30px;                            /* Adjust left to position number correctly */
     color: rgba(0, 0, 0, 0.5);            /* Fade the color (50% opacity) */
+}
+
+#about-section .abstbody {
+    margin-left: 0.15cm;
+    margin-right: 0.15cm;
+    
 }
